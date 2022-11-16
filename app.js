@@ -15,7 +15,7 @@ mongoose.connect(process.env.MONGOURI);
 /*
 conecta mi app de expres con las rutas en index.js
 */
-app.use('/v1', require('/src/routes'))
+app.use('/v1', require('./src/routes'))
 /*
 activar para que este escuchando nuestras peticiones
 */
